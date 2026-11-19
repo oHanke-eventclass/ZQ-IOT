@@ -1,0 +1,25 @@
+Projektplanung ZQ IoT
+=====================
+
+Gruppe:  Irka und Oli
+
+Projekt: SOS-Help-Desk-Button
+-----------------------------
+Ziel:
+Ein Mitarbeiter kann per Knopfdruck Hilfe beim Help-Desk anfordern.
+- Taster auf einem Breadboard wird gedrückt -> SOS-Meldung wird per MQTT
+  über den Raspberry Pi verschickt.
+- Der Help-Desk sieht die Meldung auf einer Oberfläche am PC.
+- Der Help-Desk kann die Meldung bestätigen -> eine LED auf dem Breadboard
+  leuchtet und zeigt dem Mitarbeiter, dass sich jemand um das Problem kümmert.
+
+Benötigte Materialien / Software:
+- Raspberry Pi (mit Netzteil, SD-Karte, Raspberry Pi OS)
+- Breadboard, Taster, LED, Widerstände, Jumperkabel
+- PC für die Help-Desk-Oberfläche
+- Netzwerkzugang (WLAN/LAN) für Raspberry Pi und PC
+- MQTT-Broker (z. B. Mosquitto)
+- Programmierung, z. B. mit Python (wird im Projekt festgelegt)
+
+Projektdokumentation:
+Wir werden pflegen die Dokumentation wahrscheinlich in einem GitHub Repo speichern.

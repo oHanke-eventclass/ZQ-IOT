@@ -1,0 +1,60 @@
+Projektdurchführung ZQ IOT
+==========================
+
+Geräte/Materialien:
+
+- Raspberry Pi 5
+- Breadboard + Kabel
+- 3 LED's
+- Taster
+- Monitor, Tastatur & Maus
+- Laptop
+
+Software:
+
+- Raspberry Pi OS
+- Python3
+- Node-Red
+- Flask
+
+-------------------------------------------
+
+Grundidee - Helpdesk:
+
+SOS-Button für Client, was eine Supportanfrage an den Helpdesk schicken soll.
+
+Ausgangslage: Alles OK -> grüne LED leuchtet
+
+Taster wird betätigt -> grüne LED geht aus -> rote LED geht an
+
+Oberfläche am Helpdesk (PC) -> Status wird von "OK" zu "SOS"
+
+Helpdesk kann dann:
+a) Die Anfrage bestätigen -> rote LED geht aus -> gelbe LED geht an == "In Bearbeitung"
+b) Die Anfrage abschließen -> rote oder gelbe LED geht aus -> grüne LED geht an == "OK"
+
+Taster könnte, sobald die LED wieder grün ist, wieder ein SOS-Signal senden.
+
+--------------------------------------------------------------------------------------
+
+Montag:
+- Raspberry Pi OS installiert
+- Breadboard testweise aufgebaut, um Pi Pins auszuprobieren
+
+Dienstag:
+- Flask auf PC installiert
+- App.py auf Pi erstellt
+- Direktverbindung Pi <-> PC getestet
+- Recherche zu Node-Red und erste "Request->Response"-Kette erstellt
+
+Mittwoch:
+- Feiertag
+
+Donnerstag:
+- Statusausgabe auf Oberfläche gefixt
+- gelbe LED eingebunden
+- Node-Red GET requests hinzugefügt
+- Doku schreiben
+
+Freitag:
+- Präsentation vom Projekt
